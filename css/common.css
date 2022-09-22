@@ -8,11 +8,13 @@
 
 :root {
     /* Declaro variables CSS con colores principales */
-    --color-theme: #00594c;
+    --color-theme: #00594c ;
     --color-active: #5df2d6;
     --color-back-active: #04957d;
     --color-gradient: linear-gradient(to right, var(--color-theme),
             var(--color-back-active));
+    
+            
 }
 
 body {
@@ -183,7 +185,8 @@ footer p {
 }
 
 main p {
-    margin-bottom: 16px;
+    margin-bottom: 5px;
+    font-size: 13px; 
 }
 
 /* Media Query: Estilos a aplicar sólo en pantallas mayores a 400px */
@@ -197,4 +200,28 @@ main p {
         padding-top: 20px;
         padding-bottom: 20px;
     }
+}
+
+.card{
+
+    border-style: solid;
+    border-radius: 35px;
+    border-width: 0px;
+    box-shadow: 2px 4px 10px 4px #777; 
+    width: 250px;
+    height: 310px;    
+}
+
+button{
+    color: white;
+    background-color:#035246;
+    border-radius: 8px;
+    padding: 4px;   
+    font-size: 15px;
+    border-width: 0px;
+}
+
+#Selecionable{
+    border-radius: 4px;
+    padding: 5px;
 }
