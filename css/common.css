@@ -197,7 +197,7 @@ footer p {
     color: white;
 }
 
-main p {
+.card p{
     margin-bottom: 5px;
     font-size: 13px; 
 }
@@ -216,7 +216,7 @@ main p {
 }
 
 .card{
-
+    
     border-style: solid;
     border-radius: 35px;
     border-width: 0px;
@@ -229,7 +229,7 @@ button{
     color: white;
     background-color:#035246;
     border-radius: 8px;
-    padding: 4px;   
+    padding: 8px;   
     font-size: 15px;
     border-width: 0px;
 }
@@ -237,4 +237,23 @@ button{
 #Selecionable{
     border-radius: 4px;
     padding: 5px;
+}
+
+.opciones p{
+    margin-bottom: 30px;
+    border-style: solid;
+    border-width: 0px;    
+    border-radius: 18px;
+    width: 450px;
+    padding: 15px;
+    color: white;
+}
+
+#ciudad{
+    border-radius: 4px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.Ayuda{
+    border-radius: 4px;
 }

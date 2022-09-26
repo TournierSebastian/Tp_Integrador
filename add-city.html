@@ -13,7 +13,7 @@
 <body>
     <header>
         <h1>
-            <span>Clima App</span>
+            <img src="/css/img/dom.png"><span>Clima App</span>
         </h1>
         <nav>
             <ul>
@@ -29,12 +29,22 @@
         <section id="section-city">
             <!-- Sección donde se debe colocar el formulario, con el select y el botón de consultar -->
             <form action="">
-                <label for="Texto">Ingrese la ciudad a agregar:</label>
+                <center>
+                <b><label for="Texto">Ingrese la ciudad a agregar:</label></b>
+                <br>
                 <input type="text" name="ciudad" id="ciudad"><br>
                 <button>Agregar</button>
+            </center>
             </form>
         </section>
-        
+        <br>
+        <div class="opciones">
+            <center>    
+            <p style="background-color: #28a745;">Ciudad agregada con exito</p>
+            <p style="background-color: #dc3545;">Error: La ciudad ingresada no se encuentraen la API o se produjo un error al consultar</p>
+            <p style="background-color: #ffc107;">La ciudad ya se encuentra almacenada</p>
+            </center>
+        </div>
     </main>
     <footer>
         <p>
